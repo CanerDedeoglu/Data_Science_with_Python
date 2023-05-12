@@ -1,0 +1,49 @@
+
+#Virtual Environment (Sanal Ortam) ve (Package Managment) Paket Yönetimi
+
+#Sanal ortamların listelenmesi:
+#conda env list
+
+#Sanal ortam oluşturma:
+#conda create -n myenv(verilmek istenen isim)
+
+#Sanal ortamı aktif etme:
+#conda activate myenv
+
+#Sanal ortamdan çıkma:
+#conda deactivate
+
+#Yüklü paketlerin listelenmesi:
+#conda list
+
+#Paket Yükleme:
+#conda install numpy(paket ismi)
+
+#Aynı anda birden fazla pakey yükleme:
+#conda install numpy pandas scipy
+
+#Paket silme:
+#conda remove package_name
+
+#Belirli bir versiyona göre paket yükleme:
+#conda install numpy=1.20.1
+
+#Paket yükseltmek için:
+#conda upgrade numpy
+
+#Tüm paketlerin yükseltilmesi:
+#conda upgrade -all
+
+#pip:pypi(python package index) paket yönetim aracı
+
+#Paket yükleme:
+#pip install package_name
+
+#Versiyona göre paket yükleme:
+#pip install pandas==1.2.1
+
+#Kullanılan paketleri başkasına atma:
+#conda env export > environment.yaml
+
+#Başkasından alınan paket dosyasını kurma :
+#conda env create -f environment.yaml

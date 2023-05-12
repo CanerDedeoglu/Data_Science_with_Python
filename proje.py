@@ -1,9 +1,8 @@
-
-#  Soru 1: persona.csv dosyasını okutunuz ve veri seti ile ilgili genel bilgileri gösteriniz.
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+
+#  Soru 1: persona.csv dosyasını okutunuz ve veri seti ile ilgili genel bilgileri gösteriniz.
 
 df = pd.read_csv("datasets/persona.csv")
 
